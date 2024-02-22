@@ -1,22 +1,22 @@
 <?php
 
-namespace Slince\Shopify\Tests;
+namespace Joneco\Shopify\Tests;
 
 use GuzzleHttp\Utils;
-use Slince\Shopify\Client;
-use Slince\Shopify\Exception\BadRequestException;
-use Slince\Shopify\Exception\ForbiddenException;
-use Slince\Shopify\Exception\NotAcceptableException;
-use Slince\Shopify\Exception\NotFoundException;
-use Slince\Shopify\Exception\RuntimeException;
-use Slince\Shopify\Exception\ClientException;
-use Slince\Shopify\Exception\TooManyRequestsException;
-use Slince\Shopify\Exception\UnauthorizedException;
-use Slince\Shopify\Exception\UnprocessableEntityException;
-use Slince\Shopify\Inflector;
-use Slince\Shopify\PublicAppCredential;
-use Slince\Shopify\Exception\InvalidArgumentException;
-use Slince\Shopify\Service\Common\ManagerInterface;
+use Joneco\Shopify\Client;
+use Joneco\Shopify\Exception\BadRequestException;
+use Joneco\Shopify\Exception\ForbiddenException;
+use Joneco\Shopify\Exception\NotAcceptableException;
+use Joneco\Shopify\Exception\NotFoundException;
+use Joneco\Shopify\Exception\RuntimeException;
+use Joneco\Shopify\Exception\ClientException;
+use Joneco\Shopify\Exception\TooManyRequestsException;
+use Joneco\Shopify\Exception\UnauthorizedException;
+use Joneco\Shopify\Exception\UnprocessableEntityException;
+use Joneco\Shopify\Inflector;
+use Joneco\Shopify\PublicAppCredential;
+use Joneco\Shopify\Exception\InvalidArgumentException;
+use Joneco\Shopify\Service\Common\ManagerInterface;
 
 include_once __DIR__.'/Hydrator/test_classes.php';
 

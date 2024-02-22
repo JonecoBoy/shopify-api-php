@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\OrderAddress:
+Joneco\Shopify\Model\Orders\Common\OrderAddress:
     properties:
         firstName:
             type: string

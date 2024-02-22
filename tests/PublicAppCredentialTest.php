@@ -1,10 +1,10 @@
 <?php
 
-namespace Slince\Shopify\Tests;
+namespace Joneco\Shopify\Tests;
 
 use GuzzleHttp\Psr7\Request;
-use Slince\Shopify\PublicAppCredential;
-use Slince\Shopify\Exception\InvalidArgumentException;
+use Joneco\Shopify\PublicAppCredential;
+use Joneco\Shopify\Exception\InvalidArgumentException;
 
 class PublicAppCredentialTest extends \PHPUnit\Framework\TestCase
 {

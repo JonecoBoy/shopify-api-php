@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Transaction:
+Joneco\Shopify\Model\Orders\Transaction:
     properties:
         receipt:
             type: array

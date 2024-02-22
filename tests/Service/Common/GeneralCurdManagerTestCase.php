@@ -1,10 +1,10 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Common;
+namespace Joneco\Shopify\Tests\Service\Common;
 
 use GuzzleHttp\Utils;
-use Slince\Shopify\Service\Common\GeneralCurdManager;
-use Slince\Shopify\Tests\TestCase;
+use Joneco\Shopify\Service\Common\GeneralCurdManager;
+use Joneco\Shopify\Tests\TestCase;
 
 class GeneralCurdManagerTestCase extends AbstractManagerTestCase
 {

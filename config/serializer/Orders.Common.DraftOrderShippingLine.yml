@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\DraftOrderShippingLine:
+Joneco\Shopify\Model\Orders\Common\DraftOrderShippingLine:
     properties:
         custom:
             type: bool

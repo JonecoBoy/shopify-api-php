@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Customers\CustomerInvite:
+Joneco\Shopify\Model\Customers\CustomerInvite:
     properties:
         id:
             type: int

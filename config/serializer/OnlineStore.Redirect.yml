@@ -1,4 +1,4 @@
-Slince\Shopify\Model\OnlineStore\Redirect:
+Joneco\Shopify\Model\OnlineStore\Redirect:
     properties:
         id:
             type: int

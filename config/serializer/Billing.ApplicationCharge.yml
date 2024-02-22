@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Billing\ApplicationCharge:
+Joneco\Shopify\Model\Billing\ApplicationCharge:
     properties:
         id:
             type: int

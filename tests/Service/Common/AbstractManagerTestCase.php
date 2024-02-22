@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Common;
+namespace Joneco\Shopify\Tests\Service\Common;
 
-use Slince\Shopify\Tests\TestCase;
+use Joneco\Shopify\Tests\TestCase;
 
 class AbstractManagerTestCase extends TestCase
 {
@@ -24,7 +24,7 @@ class AbstractManagerTestCase extends TestCase
 
     protected function getFixturesDir()
     {
-        $fixture = str_ireplace(['Slince\Shopify\Tests\Service', 'ManagerTest'], ['', ''], get_called_class());
+        $fixture = str_ireplace(['Joneco\Shopify\Tests\Service', 'ManagerTest'], ['', ''], get_called_class());
         return str_replace('\\', '/', $fixture);
     }
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace Slince\Shopify\Tests;
+namespace Joneco\Shopify\Tests;
 
 use GuzzleHttp\Utils;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\Stream;
 use PHPUnit\Framework\TestCase as BaseTestCase;
-use Slince\Shopify\Client;
-use Slince\Shopify\PublicAppCredential;
+use Joneco\Shopify\Client;
+use Joneco\Shopify\PublicAppCredential;
 use Symfony\Component\Filesystem\Filesystem;
 
 class TestCase extends BaseTestCase

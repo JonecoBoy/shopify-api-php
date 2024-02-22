@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Store;
+namespace Joneco\Shopify\Tests\Model\Store;
 
-use Slince\Shopify\Model\Store\Currency;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Store\Currency;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class CurrencyTest extends ModelTestCase
 {

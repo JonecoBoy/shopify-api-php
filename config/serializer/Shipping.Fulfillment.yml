@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Shipping\Fulfillment:
+Joneco\Shopify\Model\Shipping\Fulfillment:
     properties:
         id:
             type: int
@@ -19,7 +19,7 @@ Slince\Shopify\Model\Shipping\Fulfillment:
         locationId:
             type: int
         lineItems:
-            type: array<Slince\Shopify\Model\Orders\Common\LineItem>
+            type: array<Joneco\Shopify\Model\Orders\Common\LineItem>
         trackingNumber:
             type: string
         trackingNumbers:

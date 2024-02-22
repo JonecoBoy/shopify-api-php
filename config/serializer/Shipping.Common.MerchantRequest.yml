@@ -1,8 +1,8 @@
-Slince\Shopify\Model\Shipping\Common\MerchantRequest:
+Joneco\Shopify\Model\Shipping\Common\MerchantRequest:
     properties:
         message:
             type: string
         requestOptions:
-            type: array<Slince\Shopify\Model\Shipping\Common\RequestOption>
+            type: array<Joneco\Shopify\Model\Shipping\Common\RequestOption>
         kind:
             type: string

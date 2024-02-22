@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Access\StorefrontAccessToken:
+Joneco\Shopify\Model\Access\StorefrontAccessToken:
     properties:
         id:
             type: int

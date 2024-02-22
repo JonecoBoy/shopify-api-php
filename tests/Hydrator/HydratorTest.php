@@ -1,10 +1,10 @@
 <?php
 
-namespace Slince\Shopify\Tests\Hydrator;
+namespace Joneco\Shopify\Tests\Hydrator;
 
-use Slince\Shopify\Hydrator\Hydrator;
-use Slince\Shopify\Hydrator\HydratorInterface;
-use Slince\Shopify\Tests\TestCase;
+use Joneco\Shopify\Hydrator\Hydrator;
+use Joneco\Shopify\Hydrator\HydratorInterface;
+use Joneco\Shopify\Tests\TestCase;
 
 include_once __DIR__.'/test_classes.php';
 

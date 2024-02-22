@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Store;
+namespace Joneco\Shopify\Tests\Model\Store;
 
-use Slince\Shopify\Model\Store\Province;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Store\Province;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class ProvinceTest extends ModelTestCase
 {

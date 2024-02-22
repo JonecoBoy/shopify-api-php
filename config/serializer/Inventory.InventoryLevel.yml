@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Inventory\InventoryLevel:
+Joneco\Shopify\Model\Inventory\InventoryLevel:
     properties:
         inventoryItemId:
             type: int

@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Slince\Shopify\Model\Shipping;
+namespace Joneco\Shopify\Model\Shipping;
 
-use Slince\Shopify\Model\Inventory\Location;
-use Slince\Shopify\Model\Shipping\Common\Destination;
-use Slince\Shopify\Model\Shipping\Common\LineItem;
-use Slince\Shopify\Model\Shipping\Common\MerchantRequest;
+use Joneco\Shopify\Model\Inventory\Location;
+use Joneco\Shopify\Model\Shipping\Common\Destination;
+use Joneco\Shopify\Model\Shipping\Common\LineItem;
+use Joneco\Shopify\Model\Shipping\Common\MerchantRequest;
 
 class FulfillmentOrder
 {

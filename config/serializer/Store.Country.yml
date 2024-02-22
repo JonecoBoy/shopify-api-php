@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Store\Country:
+Joneco\Shopify\Model\Store\Country:
     properties:
         name:
             type: string
@@ -9,4 +9,4 @@ Slince\Shopify\Model\Store\Country:
         taxName:
             type: string
         provinces:
-            type: array<Slince\Shopify\Model\Store\Province>
+            type: array<Joneco\Shopify\Model\Store\Province>

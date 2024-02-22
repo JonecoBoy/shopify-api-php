@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Slince\Shopify\Middleware;
+namespace Joneco\Shopify\Middleware;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Slince\Shopify\Exception\InvalidArgumentException;
-use Slince\Shopify\Exception\RuntimeException;
+use Joneco\Shopify\Exception\InvalidArgumentException;
+use Joneco\Shopify\Exception\RuntimeException;
 
 class MiddlewareChain implements MiddlewareInterface
 {

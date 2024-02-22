@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Events;
+namespace Joneco\Shopify\Tests\Model\Events;
 
-use Slince\Shopify\Model\Events\Event;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Events\Event;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class EventTest extends ModelTestCase
 {

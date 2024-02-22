@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Store;
+namespace Joneco\Shopify\Tests\Model\Store;
 
-use Slince\Shopify\Model\Store\Policy;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Store\Policy;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class PolicyTest extends ModelTestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\OnlineStore;
+namespace Joneco\Shopify\Tests\Model\OnlineStore;
 
-use Slince\Shopify\Model\OnlineStore\Asset;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\OnlineStore\Asset;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class AssetTest extends ModelTestCase
 {

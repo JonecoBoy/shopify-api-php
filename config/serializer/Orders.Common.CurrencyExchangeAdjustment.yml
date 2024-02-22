@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\CurrencyExchangeAdjustment:
+Joneco\Shopify\Model\Orders\Common\CurrencyExchangeAdjustment:
     properties:
         id:
             type: int

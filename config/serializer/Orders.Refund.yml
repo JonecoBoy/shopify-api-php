@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Refund:
+Joneco\Shopify\Model\Orders\Refund:
     properties:
         id:
             type: int
@@ -15,16 +15,16 @@ Slince\Shopify\Model\Orders\Refund:
         restock:
             type: bool
         duties:
-            type: array<Slince\Shopify\Model\Orders\Common\Duty>
+            type: array<Joneco\Shopify\Model\Orders\Common\Duty>
         totalDutiesSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         adminGraphqlApiId:
             type: string
         refundDuties:
-            type: array<Slince\Shopify\Model\Orders\Common\RefundDuty>
+            type: array<Joneco\Shopify\Model\Orders\Common\RefundDuty>
         refundLineItems:
-            type: array<Slince\Shopify\Model\Orders\Common\RefundLineItem>
+            type: array<Joneco\Shopify\Model\Orders\Common\RefundLineItem>
         transactions:
-            type: array<Slince\Shopify\Model\Orders\Transaction>
+            type: array<Joneco\Shopify\Model\Orders\Transaction>
         orderAdjustments:
-            type: array<Slince\Shopify\Model\Orders\Common\OrderAdjustment>
+            type: array<Joneco\Shopify\Model\Orders\Common\OrderAdjustment>

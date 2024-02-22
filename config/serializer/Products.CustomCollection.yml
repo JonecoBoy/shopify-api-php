@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Products\CustomCollection:
+Joneco\Shopify\Model\Products\CustomCollection:
     properties:
         id:
             type: int
@@ -19,6 +19,6 @@ Slince\Shopify\Model\Products\CustomCollection:
         publishedScope:
             type: string
         image:
-            type: Slince\Shopify\Model\Products\CollectionImage
+            type: Joneco\Shopify\Model\Products\CollectionImage
         adminGraphqlApiId:
             type: string

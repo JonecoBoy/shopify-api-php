@@ -1,21 +1,21 @@
-Slince\Shopify\Model\Orders\Common\ShippingLine:
+Joneco\Shopify\Model\Orders\Common\ShippingLine:
     properties:
         code:
             type: string
         price:
             type: string
         priceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         discountedPrice:
             type: string
         discountedPriceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         source:
             type: string
         title:
             type: string
         taxLines:
-            type: array<Slince\Shopify\Model\Orders\Common\TaxLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\TaxLine>
         carrierIdentifier:
             type: string
         requestedFulfillmentServiceId:

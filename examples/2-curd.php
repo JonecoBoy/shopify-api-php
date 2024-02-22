@@ -1,7 +1,7 @@
 <?php
 
 /*
- * @var Slince\Shopify\Client
+ * @var Joneco\Shopify\Client
  */
 $client = include __DIR__ . '/0-authorization.php';
 

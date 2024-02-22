@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\OrderAdjustment:
+Joneco\Shopify\Model\Orders\Common\OrderAdjustment:
     properties:
         id:
             type: int
@@ -15,6 +15,6 @@ Slince\Shopify\Model\Orders\Common\OrderAdjustment:
         reason:
             type: string
         amountSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         taxAmountSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet

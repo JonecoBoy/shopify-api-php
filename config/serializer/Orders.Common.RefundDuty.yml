@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\RefundDuty:
+Joneco\Shopify\Model\Orders\Common\RefundDuty:
     properties:
         dutyId:
             type: int

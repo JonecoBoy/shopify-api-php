@@ -1,10 +1,10 @@
 <?php
 
-namespace Slince\Shopify\Tests\Base;
+namespace Joneco\Shopify\Tests\Base;
 
 use PHPUnit\Framework\TestCase;
-use Slince\Shopify\AccessToken;
-use Slince\Shopify\Exception\InvalidArgumentException;
+use Joneco\Shopify\AccessToken;
+use Joneco\Shopify\Exception\InvalidArgumentException;
 
 class AccessTokenTest extends TestCase
 {

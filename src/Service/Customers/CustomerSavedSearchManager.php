@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Slince\Shopify\Service\Customers;
+namespace Joneco\Shopify\Service\Customers;
 
-use Slince\Shopify\Model\Customers\CustomerSavedSearch;
-use Slince\Shopify\Service\Common\GeneralCurdManager;
+use Joneco\Shopify\Model\Customers\CustomerSavedSearch;
+use Joneco\Shopify\Service\Common\GeneralCurdManager;
 
 class CustomerSavedSearchManager extends GeneralCurdManager implements CustomerSavedSearchManagerInterface
 {

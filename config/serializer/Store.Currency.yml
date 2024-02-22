@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Store\Currency:
+Joneco\Shopify\Model\Store\Currency:
     properties:
         currency:
             type: string

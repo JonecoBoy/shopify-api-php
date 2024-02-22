@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Discounts\DiscountCode:
+Joneco\Shopify\Model\Discounts\DiscountCode:
     properties:
         id:
             type: int

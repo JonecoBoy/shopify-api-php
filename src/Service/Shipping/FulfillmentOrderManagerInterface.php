@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Slince\Shopify\Service\Shipping;
+namespace Joneco\Shopify\Service\Shipping;
 
-use Slince\Shopify\Model\Orders\Order;
-use Slince\Shopify\Model\Shipping\CarrierService;
-use Slince\Shopify\Model\Shipping\FulfillmentOrder;
+use Joneco\Shopify\Model\Orders\Order;
+use Joneco\Shopify\Model\Shipping\CarrierService;
+use Joneco\Shopify\Model\Shipping\FulfillmentOrder;
 
 interface FulfillmentOrderManagerInterface
 {

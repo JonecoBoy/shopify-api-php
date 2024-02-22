@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\CheckoutShippingLine:
+Joneco\Shopify\Model\Orders\Common\CheckoutShippingLine:
     properties:
         code:
             type: string

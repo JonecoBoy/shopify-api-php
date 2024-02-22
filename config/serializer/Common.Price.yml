@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Common\Price:
+Joneco\Shopify\Model\Common\Price:
     properties:
         amount:
             type: string

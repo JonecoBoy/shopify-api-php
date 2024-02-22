@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Orders;
+namespace Joneco\Shopify\Tests\Service\Orders;
 
-use Slince\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
 
 class OrderManagerTest extends GeneralCurdManagerTestCase
 {

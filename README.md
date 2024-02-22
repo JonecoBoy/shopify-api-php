@@ -42,11 +42,11 @@ You first need to initialize the client. For that you need your Shop Name and Ac
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-$credential = new Slince\Shopify\PublicAppCredential('Access Token');
+$credential = new Joneco\Shopify\PublicAppCredential('Access Token');
 // Or Private App
-$credential = new Slince\Shopify\PrivateAppCredential('API KEY', 'PASSWORD', 'SHARED SECRET');
+$credential = new Joneco\Shopify\PrivateAppCredential('API KEY', 'PASSWORD', 'SHARED SECRET');
 
-$client = new Slince\Shopify\Client('your-store.myshopify.com', $credential, [
+$client = new Joneco\Shopify\Client('your-store.myshopify.com', $credential, [
     'meta_cache_dir' => './tmp' // Metadata cache dir, required
 ]);
 ```
@@ -102,7 +102,7 @@ $pagination = $client->getProductManager()->paginate([
     'limit' => 3,
     'created_at_min' => '2015-04-25T16:15:47-04:00'
 ]);
-// $pagination is instance of `Slince\Shopify\Common\CursorBasedPagination`
+// $pagination is instance of `Joneco\Shopify\Common\CursorBasedPagination`
 
 $currentProducts = $pagination->current(); //current page
 
@@ -144,7 +144,7 @@ $product = $client->getProductManager()->create([
 ```php
 $client->getProductManager()->remove(12800);
 ```
-The product is an instance of `Slince\Shopify\Manager\Product\Product`; You can access properties like following:
+The product is an instance of `Joneco\Shopify\Manager\Product\Product`; You can access properties like following:
  
 ```php
 echo $product->getTitle();

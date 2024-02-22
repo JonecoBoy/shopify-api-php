@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Shipping;
+namespace Joneco\Shopify\Tests\Service\Shipping;
 
-use Slince\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
-use Slince\Shopify\Tests\Service\Common\NestCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\NestCurdManagerTestCase;
 
 class FulfillmentOrderManagerTest extends NestCurdManagerTestCase
 {

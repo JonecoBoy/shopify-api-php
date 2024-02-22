@@ -10,7 +10,7 @@
         bootstrap="vendor/autoload.php"
 >
   <testsuites>
-    <testsuite name="Slince Test Suite">
+    <testsuite name="Joneco Test Suite">
       <directory>./tests/</directory>
     </testsuite>
   </testsuites>

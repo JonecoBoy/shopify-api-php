@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Products\SmartCollection:
+Joneco\Shopify\Model\Products\SmartCollection:
     properties:
         id:
             type: int
@@ -19,10 +19,10 @@ Slince\Shopify\Model\Products\SmartCollection:
         disjunctive:
             type: bool
         rules:
-            type: array<Slince\Shopify\Model\Products\Common\Rule>
+            type: array<Joneco\Shopify\Model\Products\Common\Rule>
         publishedScope:
             type: string
         image:
-            type: Slince\Shopify\Model\Products\CollectionImage
+            type: Joneco\Shopify\Model\Products\CollectionImage
         adminGraphqlApiId:
             type: string

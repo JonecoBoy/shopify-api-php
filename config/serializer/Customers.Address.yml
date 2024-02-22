@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Customers\Address:
+Joneco\Shopify\Model\Customers\Address:
     properties:
         id:
             type: int

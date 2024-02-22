@@ -1,4 +1,4 @@
-Slince\Shopify\Model\MarketingEvent\MarketingEvent:
+Joneco\Shopify\Model\MarketingEvent\MarketingEvent:
     properties:
         id:
             type: int
@@ -43,4 +43,4 @@ Slince\Shopify\Model\MarketingEvent\MarketingEvent:
         adminGraphqlApiId:
             type: string
         marketedResources:
-            type: array<Slince\Shopify\Model\MarketingEvent\Common\MarketedResource>
+            type: array<Joneco\Shopify\Model\MarketingEvent\Common\MarketedResource>

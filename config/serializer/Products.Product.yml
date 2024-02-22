@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Products\Product:
+Joneco\Shopify\Model\Products\Product:
     properties:
         id:
             type: int
@@ -25,12 +25,12 @@ Slince\Shopify\Model\Products\Product:
         tags:
             type: string
         variants:
-            type: array<Slince\Shopify\Model\Products\Variant>
+            type: array<Joneco\Shopify\Model\Products\Variant>
         images:
-            type: array<Slince\Shopify\Model\Products\Image>
+            type: array<Joneco\Shopify\Model\Products\Image>
         image:
-            type: Slince\Shopify\Model\Products\Image
+            type: Joneco\Shopify\Model\Products\Image
         options:
-            type: array<Slince\Shopify\Model\Products\Option>
+            type: array<Joneco\Shopify\Model\Products\Option>
         adminGraphqlApiId:
             type: string

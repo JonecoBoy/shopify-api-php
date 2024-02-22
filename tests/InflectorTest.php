@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests;
+namespace Joneco\Shopify\Tests;
 
-use Slince\Shopify\Inflector;
+use Joneco\Shopify\Inflector;
 
 class InflectorTest extends \PHPUnit\Framework\TestCase
 {

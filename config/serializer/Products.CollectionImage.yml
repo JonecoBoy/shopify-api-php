@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Products\CollectionImage:
+Joneco\Shopify\Model\Products\CollectionImage:
     properties:
         src:
             type: string

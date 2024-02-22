@@ -1,4 +1,4 @@
-Slince\Shopify\Model\OnlineStore\Asset:
+Joneco\Shopify\Model\OnlineStore\Asset:
     properties:
         key:
             type: string

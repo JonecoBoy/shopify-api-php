@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Checkout:
+Joneco\Shopify\Model\Orders\Checkout:
     properties:
         id:
             type: int
@@ -21,11 +21,11 @@ Slince\Shopify\Model\Orders\Checkout:
         note:
             type: string
         noteAttributes:
-            type: array<Slince\Shopify\Model\Orders\Common\NoteAttribute>
+            type: array<Joneco\Shopify\Model\Orders\Common\NoteAttribute>
         referringSite:
             type: string
         shippingLines:
-            type: array<Slince\Shopify\Model\Orders\Common\CheckoutShippingLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\CheckoutShippingLine>
         taxesIncluded:
             type: bool
         totalWeight:
@@ -51,7 +51,7 @@ Slince\Shopify\Model\Orders\Checkout:
         customerLocale:
             type: string
         lineItems:
-            type: array<Slince\Shopify\Model\Orders\Common\LineItem>
+            type: array<Joneco\Shopify\Model\Orders\Common\LineItem>
         name:
             type: string
         source:
@@ -59,9 +59,9 @@ Slince\Shopify\Model\Orders\Checkout:
         abandonedCheckoutUrl:
             type: string
         discountCodes:
-            type: array<Slince\Shopify\Model\Discounts\DiscountCode>
+            type: array<Joneco\Shopify\Model\Discounts\DiscountCode>
         taxLines:
-            type: array<Slince\Shopify\Model\Orders\Common\TaxLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\TaxLine>
         sourceName:
             type: string
         presentmentCurrency:
@@ -79,8 +79,8 @@ Slince\Shopify\Model\Orders\Checkout:
         totalDuties:
             type: string
         billingAddress:
-            type: Slince\Shopify\Model\Orders\Common\OrderAddress
+            type: Joneco\Shopify\Model\Orders\Common\OrderAddress
         shippingAddress:
-            type: Slince\Shopify\Model\Orders\Common\OrderAddress
+            type: Joneco\Shopify\Model\Orders\Common\OrderAddress
         customer:
-            type: Slince\Shopify\Model\Customers\Customer
+            type: Joneco\Shopify\Model\Customers\Customer

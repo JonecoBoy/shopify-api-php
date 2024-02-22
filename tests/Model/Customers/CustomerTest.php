@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Customers;
+namespace Joneco\Shopify\Tests\Model\Customers;
 
-use Slince\Shopify\Model\Customers\Customer;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Customers\Customer;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class CustomerTest extends ModelTestCase
 {

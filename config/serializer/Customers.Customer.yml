@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Customers\Customer:
+Joneco\Shopify\Model\Customers\Customer:
     properties:
         id:
             type: int
@@ -39,7 +39,7 @@ Slince\Shopify\Model\Customers\Customer:
         currency:
             type: string
         addresses:
-            type: array<Slince\Shopify\Model\Customers\Address>
+            type: array<Joneco\Shopify\Model\Customers\Address>
         acceptsMarketingUpdatedAt:
             type: DateTime<'Y-m-d\TH:i:sO'>
         marketingOptInLevel:
@@ -49,4 +49,4 @@ Slince\Shopify\Model\Customers\Customer:
         adminGraphqlApiId:
             type: string
         defaultAddress:
-            type: Slince\Shopify\Model\Customers\Address
+            type: Joneco\Shopify\Model\Customers\Address

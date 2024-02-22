@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Transaction:
+Joneco\Shopify\Model\Orders\Transaction:
     properties:
         id:
             type: int
@@ -35,7 +35,7 @@ Slince\Shopify\Model\Orders\Transaction:
         sourceName:
             type: string
         currencyExchangeAdjustment:
-            type: Slince\Shopify\Model\Orders\Common\CurrencyExchangeAdjustment
+            type: Joneco\Shopify\Model\Orders\Common\CurrencyExchangeAdjustment
         amount:
             type: string
         currency:
@@ -43,4 +43,4 @@ Slince\Shopify\Model\Orders\Transaction:
         adminGraphqlApiId:
             type: string
         paymentDetails:
-            type: Slince\Shopify\Model\Orders\Common\PaymentDetails
+            type: Joneco\Shopify\Model\Orders\Common\PaymentDetails

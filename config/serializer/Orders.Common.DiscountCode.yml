@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\DiscountCode:
+Joneco\Shopify\Model\Orders\Common\DiscountCode:
     properties:
         code:
             type: string

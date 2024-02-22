@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Billing;
+namespace Joneco\Shopify\Tests\Service\Billing;
 
-use Slince\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
 
 class ApplicationCreditManagerTest extends GeneralCurdManagerTestCase
 {

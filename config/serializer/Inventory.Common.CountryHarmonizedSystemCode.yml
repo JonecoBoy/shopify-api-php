@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Inventory\Common\CountryHarmonizedSystemCode:
+Joneco\Shopify\Model\Inventory\Common\CountryHarmonizedSystemCode:
     properties:
         harmonizedSystemCode:
             type: string

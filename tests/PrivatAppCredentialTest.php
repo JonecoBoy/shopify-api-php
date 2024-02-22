@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests;
+namespace Joneco\Shopify\Tests;
 
 use GuzzleHttp\Psr7\Request;
-use Slince\Shopify\PrivateAppCredential;
+use Joneco\Shopify\PrivateAppCredential;
 
 class PrivatAppCredentialTest extends \PHPUnit\Framework\TestCase
 {

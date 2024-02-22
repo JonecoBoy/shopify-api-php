@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Slince\Shopify\Service\Shipping;
+namespace Joneco\Shopify\Service\Shipping;
 
-use Slince\Shopify\Model\Shipping\Fulfillment;
-use Slince\Shopify\Service\Common\NestCrudManager;
+use Joneco\Shopify\Model\Shipping\Fulfillment;
+use Joneco\Shopify\Service\Common\NestCrudManager;
 
 class FulfillmentManager extends NestCrudManager implements FulfillmentManagerInterface
 {

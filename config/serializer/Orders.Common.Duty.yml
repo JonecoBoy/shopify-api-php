@@ -1,6 +1,6 @@
-Slince\Shopify\Model\Orders\Common\Duty:
+Joneco\Shopify\Model\Orders\Common\Duty:
     properties:
         dutyId:
             type: int
         amountSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet

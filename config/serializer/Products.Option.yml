@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Products\Option:
+Joneco\Shopify\Model\Products\Option:
     properties:
         id:
             type: int

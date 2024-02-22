@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Events\Webhook:
+Joneco\Shopify\Model\Events\Webhook:
     properties:
         id:
             type: int

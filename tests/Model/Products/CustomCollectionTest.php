@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Products;
+namespace Joneco\Shopify\Tests\Model\Products;
 
-use Slince\Shopify\Model\Products\CustomCollection;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Products\CustomCollection;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class CustomCollectionTest extends ModelTestCase
 {

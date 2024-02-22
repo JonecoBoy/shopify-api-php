@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Discounts\PriceRule:
+Joneco\Shopify\Model\Discounts\PriceRule:
     properties:
         prerequisiteQuantityRange:
             type: array

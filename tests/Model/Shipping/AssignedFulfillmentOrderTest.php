@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Shipping;
+namespace Joneco\Shopify\Tests\Model\Shipping;
 
-use Slince\Shopify\Model\Shipping\AssignedFulfillmentOrder;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Shipping\AssignedFulfillmentOrder;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class AssignedFulfillmentOrderTest extends ModelTestCase
 {

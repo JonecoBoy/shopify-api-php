@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Analytics\Report:
+Joneco\Shopify\Model\Analytics\Report:
     properties:
         id:
             type: int

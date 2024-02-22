@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\LineItem:
+Joneco\Shopify\Model\Orders\Common\LineItem:
     properties:
         id:
             type: int
@@ -29,7 +29,7 @@ Slince\Shopify\Model\Orders\Common\LineItem:
         variantInventoryManagement:
             type: string
         properties:
-            type: array<Slince\Shopify\Model\Orders\Common\LineItemProperty>
+            type: array<Joneco\Shopify\Model\Orders\Common\LineItemProperty>
         productExists:
             type: bool
         fulfillableQuantity:
@@ -43,16 +43,16 @@ Slince\Shopify\Model\Orders\Common\LineItem:
         fulfillmentStatus:
             type: string
         priceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         totalDiscountSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         discountAllocations:
-            type: array<Slince\Shopify\Model\Orders\Common\DiscountAllocation>
+            type: array<Joneco\Shopify\Model\Orders\Common\DiscountAllocation>
         originLocation:
-            type: Slince\Shopify\Model\Orders\Common\LineItemLocation
+            type: Joneco\Shopify\Model\Orders\Common\LineItemLocation
         duties:
-            type: array<Slince\Shopify\Model\Orders\Common\LineItemDuty>
+            type: array<Joneco\Shopify\Model\Orders\Common\LineItemDuty>
         adminGraphqlApiId:
             type: string
         taxLines:
-            type: array<Slince\Shopify\Model\Orders\Common\TaxLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\TaxLine>

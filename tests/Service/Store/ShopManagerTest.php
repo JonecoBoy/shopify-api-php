@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Store;
+namespace Joneco\Shopify\Tests\Service\Store;
 
-use Slince\Shopify\Tests\Service\Common\AbstractManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\AbstractManagerTestCase;
 
 class ShopManagerTest extends AbstractManagerTestCase
 {

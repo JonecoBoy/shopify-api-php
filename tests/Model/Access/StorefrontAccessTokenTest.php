@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Access;
+namespace Joneco\Shopify\Tests\Model\Access;
 
-use Slince\Shopify\Model\Access\StorefrontAccessToken;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Access\StorefrontAccessToken;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class StorefrontAccessTokenTest extends ModelTestCase
 {

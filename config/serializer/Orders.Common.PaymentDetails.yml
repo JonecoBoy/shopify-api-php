@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\PaymentDetails:
+Joneco\Shopify\Model\Orders\Common\PaymentDetails:
     properties:
         avsResultCode:
             type: string

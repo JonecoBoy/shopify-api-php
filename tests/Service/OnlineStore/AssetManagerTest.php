@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\OnlineStore;
+namespace Joneco\Shopify\Tests\Service\OnlineStore;
 
-use Slince\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
 
 class AssetManagerTest extends GeneralCurdManagerTestCase
 {

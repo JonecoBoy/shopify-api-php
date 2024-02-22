@@ -1,4 +1,4 @@
-Slince\Shopify\Model\OnlineStore\Blog:
+Joneco\Shopify\Model\OnlineStore\Blog:
     properties:
         id:
             type: int

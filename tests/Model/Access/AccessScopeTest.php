@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Access;
+namespace Joneco\Shopify\Tests\Model\Access;
 
-use Slince\Shopify\Model\Access\AccessScope;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Access\AccessScope;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class AccessScopeTest extends ModelTestCase
 {

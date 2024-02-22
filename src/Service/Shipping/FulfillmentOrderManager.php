@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Slince\Shopify\Service\Shipping;
+namespace Joneco\Shopify\Service\Shipping;
 
-use Slince\Shopify\Model\Shipping\FulfillmentOrder;
-use Slince\Shopify\Service\Common\AbstractManager;
+use Joneco\Shopify\Model\Shipping\FulfillmentOrder;
+use Joneco\Shopify\Service\Common\AbstractManager;
 
 class FulfillmentOrderManager extends AbstractManager implements FulfillmentOrderManagerInterface
 {

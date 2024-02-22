@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model;
+namespace Joneco\Shopify\Tests\Model;
 
-use Slince\Shopify\Tests\TestCase;
+use Joneco\Shopify\Tests\TestCase;
 use Symfony\Component\PropertyAccess\PropertyAccess;
 use Symfony\Component\PropertyAccess\PropertyAccessor;
 use Doctrine\Common\Annotations\AnnotationReader;
@@ -109,7 +109,7 @@ abstract class ModelTestCase extends TestCase
         $driverFactory = new DocBlockDriverFactory($driverFactory, $typeParser);
         $annotationReader = new AnnotationReader();
         $metadataDriver = $driverFactory->createDriver([
-            'Slince\\Shopify\\Model' => static::METADATA_DIR
+            'Joneco\\Shopify\\Model' => static::METADATA_DIR
         ], $annotationReader);
         $metadataFactory = new MetadataFactory($metadataDriver, null, true);
         return static::$metadataFactory = $metadataFactory;

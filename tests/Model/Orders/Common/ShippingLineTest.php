@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Orders\Common;
+namespace Joneco\Shopify\Tests\Model\Orders\Common;
 
-use Slince\Shopify\Model\Orders\Common\ShippingLine;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Orders\Common\ShippingLine;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class ShippingLineTest extends ModelTestCase
 {

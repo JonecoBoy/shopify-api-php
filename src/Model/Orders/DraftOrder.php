@@ -3,22 +3,22 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-namespace Slince\Shopify\Model\Orders;
+namespace Joneco\Shopify\Model\Orders;
 
-use Slince\Shopify\Model\Customers\Customer;
-use Slince\Shopify\Model\Orders\Common\AppliedDiscount;
-use Slince\Shopify\Model\Orders\Common\DraftOrderShippingLine;
-use Slince\Shopify\Model\Orders\Common\LineItem;
-use Slince\Shopify\Model\Orders\Common\NoteAttribute;
-use Slince\Shopify\Model\Orders\Common\OrderAddress;
-use Slince\Shopify\Model\Orders\Common\TaxLine;
+use Joneco\Shopify\Model\Customers\Customer;
+use Joneco\Shopify\Model\Orders\Common\AppliedDiscount;
+use Joneco\Shopify\Model\Orders\Common\DraftOrderShippingLine;
+use Joneco\Shopify\Model\Orders\Common\LineItem;
+use Joneco\Shopify\Model\Orders\Common\NoteAttribute;
+use Joneco\Shopify\Model\Orders\Common\OrderAddress;
+use Joneco\Shopify\Model\Orders\Common\TaxLine;
 
 class DraftOrder
 {

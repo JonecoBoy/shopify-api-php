@@ -1,4 +1,4 @@
-Slince\Shopify\Model\MarketingEvent\Common\MarketedResource:
+Joneco\Shopify\Model\MarketingEvent\Common\MarketedResource:
     properties:
         type:
             type: string

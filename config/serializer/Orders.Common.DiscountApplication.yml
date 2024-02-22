@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\DiscountApplication:
+Joneco\Shopify\Model\Orders\Common\DiscountApplication:
     properties:
         type:
             type: string

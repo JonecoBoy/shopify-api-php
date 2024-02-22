@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Inventory\InventoryItem:
+Joneco\Shopify\Model\Inventory\InventoryItem:
     properties:
         id:
             type: int
@@ -21,6 +21,6 @@ Slince\Shopify\Model\Inventory\InventoryItem:
         tracked:
             type: bool
         countryHarmonizedSystemCodes:
-            type: array<Slince\Shopify\Model\Inventory\Common\CountryHarmonizedSystemCode>
+            type: array<Joneco\Shopify\Model\Inventory\Common\CountryHarmonizedSystemCode>
         adminGraphqlApiId:
             type: string

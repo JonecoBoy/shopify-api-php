@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Store\Common\PriceBasedShippingRate:
+Joneco\Shopify\Model\Store\Common\PriceBasedShippingRate:
     properties:
         id:
             type: int

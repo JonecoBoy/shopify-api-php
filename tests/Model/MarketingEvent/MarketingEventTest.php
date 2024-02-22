@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\MarketingEvent;
+namespace Joneco\Shopify\Tests\Model\MarketingEvent;
 
-use Slince\Shopify\Model\MarketingEvent\MarketingEvent;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\MarketingEvent\MarketingEvent;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class MarketingEventTest extends ModelTestCase
 {

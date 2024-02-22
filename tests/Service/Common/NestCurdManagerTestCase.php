@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Common;
+namespace Joneco\Shopify\Tests\Service\Common;
 
 use GuzzleHttp\Utils;
-use Slince\Shopify\Service\Common\NestCrudManager;
+use Joneco\Shopify\Service\Common\NestCrudManager;
 
 abstract class NestCurdManagerTestCase extends AbstractManagerTestCase
 {

@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Risk:
+Joneco\Shopify\Model\Orders\Risk:
     properties:
         id:
             type: int

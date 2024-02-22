@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\LineItemProperty:
+Joneco\Shopify\Model\Orders\Common\LineItemProperty:
     properties:
         name:
             type: string

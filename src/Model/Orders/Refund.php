@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-namespace Slince\Shopify\Model\Orders;
+namespace Joneco\Shopify\Model\Orders;
 
-use Slince\Shopify\Model\Common\PriceSet;
-use Slince\Shopify\Model\Orders\Common\Duty;
-use Slince\Shopify\Model\Orders\Common\OrderAdjustment;
-use Slince\Shopify\Model\Orders\Common\RefundDuty;
-use Slince\Shopify\Model\Orders\Common\RefundLineItem;
+use Joneco\Shopify\Model\Common\PriceSet;
+use Joneco\Shopify\Model\Orders\Common\Duty;
+use Joneco\Shopify\Model\Orders\Common\OrderAdjustment;
+use Joneco\Shopify\Model\Orders\Common\RefundDuty;
+use Joneco\Shopify\Model\Orders\Common\RefundLineItem;
 
 class Refund
 {

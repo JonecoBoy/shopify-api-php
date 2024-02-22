@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Shipping\AssignedFulfillmentOrder:
+Joneco\Shopify\Model\Shipping\AssignedFulfillmentOrder:
     properties:
         id:
             type: int
@@ -17,8 +17,8 @@ Slince\Shopify\Model\Shipping\AssignedFulfillmentOrder:
         supportedActions:
             type: array<string>
         destination:
-            type: Slince\Shopify\Model\Shipping\Common\Destination
+            type: Joneco\Shopify\Model\Shipping\Common\Destination
         lineItems:
-            type: array<Slince\Shopify\Model\Shipping\Common\LineItem>
+            type: array<Joneco\Shopify\Model\Shipping\Common\LineItem>
         assignedLocation:
-            type: Slince\Shopify\Model\Inventory\Location
+            type: Joneco\Shopify\Model\Inventory\Location

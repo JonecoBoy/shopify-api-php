@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Events\Event:
+Joneco\Shopify\Model\Events\Event:
     properties:
         id:
             type: int

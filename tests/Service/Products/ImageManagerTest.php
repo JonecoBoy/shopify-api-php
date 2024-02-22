@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Products;
+namespace Joneco\Shopify\Tests\Service\Products;
 
-use Slince\Shopify\Tests\Service\Common\NestCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\NestCurdManagerTestCase;
 
 class ImageManagerTest extends NestCurdManagerTestCase
 {

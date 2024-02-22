@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\DraftOrder:
+Joneco\Shopify\Model\Orders\DraftOrder:
     properties:
         id:
             type: int
@@ -25,25 +25,25 @@ Slince\Shopify\Model\Orders\DraftOrder:
         status:
             type: string
         lineItems:
-            type: array<Slince\Shopify\Model\Orders\Common\LineItem>
+            type: array<Joneco\Shopify\Model\Orders\Common\LineItem>
         shippingAddress:
-            type: Slince\Shopify\Model\Orders\Common\OrderAddress
+            type: Joneco\Shopify\Model\Orders\Common\OrderAddress
         billingAddress:
-            type: Slince\Shopify\Model\Orders\Common\OrderAddress
+            type: Joneco\Shopify\Model\Orders\Common\OrderAddress
         invoiceUrl:
             type: string
         appliedDiscount:
-            type: Slince\Shopify\Model\Orders\Common\AppliedDiscount
+            type: Joneco\Shopify\Model\Orders\Common\AppliedDiscount
         orderId:
             type: int
         shippingLine:
-            type: Slince\Shopify\Model\Orders\Common\DraftOrderShippingLine
+            type: Joneco\Shopify\Model\Orders\Common\DraftOrderShippingLine
         taxLines:
-            type: array<Slince\Shopify\Model\Orders\Common\TaxLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\TaxLine>
         tag:
             type: string
         noteAttributes:
-            type: Slince\Shopify\Model\Orders\Common\NoteAttribute
+            type: Joneco\Shopify\Model\Orders\Common\NoteAttribute
         totalPrice:
             type: string
         subtotalPrice:
@@ -53,4 +53,4 @@ Slince\Shopify\Model\Orders\DraftOrder:
         adminGraphqlApiId:
             type: string
         customer:
-            type: Slince\Shopify\Model\Customers\Customer
+            type: Joneco\Shopify\Model\Customers\Customer

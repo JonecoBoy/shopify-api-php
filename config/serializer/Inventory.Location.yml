@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Inventory\Location:
+Joneco\Shopify\Model\Inventory\Location:
     properties:
         id:
             type: int

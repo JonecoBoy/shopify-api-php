@@ -1,4 +1,4 @@
-Slince\Shopify\Model\OnlineStore\Comment:
+Joneco\Shopify\Model\OnlineStore\Comment:
     properties:
         id:
             type: int

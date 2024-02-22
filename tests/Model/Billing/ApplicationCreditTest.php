@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Billing;
+namespace Joneco\Shopify\Tests\Model\Billing;
 
-use Slince\Shopify\Model\Billing\ApplicationCredit;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Billing\ApplicationCredit;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class ApplicationCreditTest extends ModelTestCase
 {

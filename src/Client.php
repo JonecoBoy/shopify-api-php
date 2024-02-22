@@ -3,30 +3,30 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the slince/shopify-api-php
+ * This file is part of the Joneco/shopify-api-php
  *
- * (c) Slince <taosikai@yeah.net>
+ * (c) Joneco <taosikai@yeah.net>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Slince\Shopify;
+namespace Joneco\Shopify;
 
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Utils;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Client as HttpClient;
-use Slince\Di\Container;
+use Joneco\Di\Container;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Slince\Shopify\Exception\ClientException;
-use Slince\Shopify\Exception\RuntimeException;
-use Slince\Shopify\Middleware\DelayMiddleware;
-use Slince\Shopify\Middleware\MiddlewareChain;
-use Slince\Shopify\Service\Common\ManagerInterface;
-use Slince\Shopify\Exception\InvalidArgumentException;
-use Slince\Shopify\Hydrator\Hydrator;
+use Joneco\Shopify\Exception\ClientException;
+use Joneco\Shopify\Exception\RuntimeException;
+use Joneco\Shopify\Middleware\DelayMiddleware;
+use Joneco\Shopify\Middleware\MiddlewareChain;
+use Joneco\Shopify\Service\Common\ManagerInterface;
+use Joneco\Shopify\Exception\InvalidArgumentException;
+use Joneco\Shopify\Hydrator\Hydrator;
 
 /**
  * @method Service\Access\AccessScopeManagerInterface getAccessScopeManager
@@ -80,7 +80,7 @@ use Slince\Shopify\Hydrator\Hydrator;
  */
 class Client
 {
-    const NAME = 'SlinceShopifyClient';
+    const NAME = 'JonecoShopifyClient';
     const VERSION = '3.0.0';
 
     /**
@@ -189,7 +189,7 @@ class Client
      * @var array
      */
     protected array $metaDirs = [
-        'Slince\\Shopify\\Model' => __DIR__.'/../config/serializer'
+        'Joneco\\Shopify\\Model' => __DIR__.'/../config/serializer'
     ];
 
     /**

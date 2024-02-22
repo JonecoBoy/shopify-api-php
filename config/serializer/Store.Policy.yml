@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Store\Policy:
+Joneco\Shopify\Model\Store\Policy:
     properties:
         title:
             type: string

@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\NoteAttribute:
+Joneco\Shopify\Model\Orders\Common\NoteAttribute:
     properties:
         name:
             type: string

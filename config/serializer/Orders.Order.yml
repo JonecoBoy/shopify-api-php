@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Order:
+Joneco\Shopify\Model\Orders\Order:
     properties:
         id:
             type: int
@@ -85,11 +85,11 @@ Slince\Shopify\Model\Orders\Order:
         orderNumber:
             type: int
         discountApplications:
-            type: array<Slince\Shopify\Model\Orders\Common\DiscountAllocation>
+            type: array<Joneco\Shopify\Model\Orders\Common\DiscountAllocation>
         discountCodes:
-            type: array<Slince\Shopify\Model\Orders\Common\DiscountCode>
+            type: array<Joneco\Shopify\Model\Orders\Common\DiscountCode>
         noteAttributes:
-            type: array<Slince\Shopify\Model\Orders\Common\NoteAttribute>
+            type: array<Joneco\Shopify\Model\Orders\Common\NoteAttribute>
         paymentGatewayNames:
             type: array<string>
         processingMethod:
@@ -101,7 +101,7 @@ Slince\Shopify\Model\Orders\Order:
         fulfillmentStatus:
             type: string
         taxLines:
-            type: array<Slince\Shopify\Model\Orders\Common\TaxLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\TaxLine>
         tags:
             type: string
         contactEmail:
@@ -111,42 +111,42 @@ Slince\Shopify\Model\Orders\Order:
         presentmentCurrency:
             type: string
         totalLineItemsPriceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         totalDiscountsSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         totalShippingPriceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         subtotalPriceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         totalPriceSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         totalTaxSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         lineItems:
-            type: array<Slince\Shopify\Model\Orders\Common\LineItem>
+            type: array<Joneco\Shopify\Model\Orders\Common\LineItem>
         fulfillments:
-            type: array<Slince\Shopify\Model\Shipping\Fulfillment>
+            type: array<Joneco\Shopify\Model\Shipping\Fulfillment>
         refunds:
-            type: array<Slince\Shopify\Model\Orders\Refund>
+            type: array<Joneco\Shopify\Model\Orders\Refund>
         totalTipReceived:
             type: string
         originalTotalDutiesSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         currentTotalDutiesSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         adminGraphqlApiId:
             type: string
         shippingLines:
-            type: array<Slince\Shopify\Model\Orders\Common\ShippingLine>
+            type: array<Joneco\Shopify\Model\Orders\Common\ShippingLine>
         billingAddress:
-            type: Slince\Shopify\Model\Orders\Common\OrderAddress
+            type: Joneco\Shopify\Model\Orders\Common\OrderAddress
         shippingAddress:
-            type: Slince\Shopify\Model\Orders\Common\OrderAddress
+            type: Joneco\Shopify\Model\Orders\Common\OrderAddress
         clientDetails:
-            type: Slince\Shopify\Model\Orders\Common\ClientDetails
+            type: Joneco\Shopify\Model\Orders\Common\ClientDetails
         paymentDetails:
-            type: Slince\Shopify\Model\Orders\Common\PaymentDetails
+            type: Joneco\Shopify\Model\Orders\Common\PaymentDetails
         transactions:
-            type: array<Slince\Shopify\Model\Orders\Transaction>
+            type: array<Joneco\Shopify\Model\Orders\Transaction>
         customer:
-            type: Slince\Shopify\Model\Customers\Customer
+            type: Joneco\Shopify\Model\Customers\Customer

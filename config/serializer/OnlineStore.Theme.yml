@@ -1,4 +1,4 @@
-Slince\Shopify\Model\OnlineStore\Theme:
+Joneco\Shopify\Model\OnlineStore\Theme:
     properties:
         id:
             type: int

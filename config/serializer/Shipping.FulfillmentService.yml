@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Shipping\FulfillmentService:
+Joneco\Shopify\Model\Shipping\FulfillmentService:
     properties:
         id:
             type: int

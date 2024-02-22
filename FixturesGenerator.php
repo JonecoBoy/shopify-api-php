@@ -57,10 +57,10 @@ final class FixturesGenerator
             $content = <<<EOT
 <?php
 
-namespace Slince\Shopify\Tests\\{$namespace};
+namespace Joneco\Shopify\Tests\\{$namespace};
 
-use Slince\Shopify\\{$class};
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\\{$class};
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class {$baseClass}Test extends ModelTestCase
 {
@@ -91,10 +91,10 @@ EOT;
 //            print_r($filename);
             $namespace = dirname($filename);
             $class = str_replace('Test.php','', $filename);
-            $fullClass = "Slince\\Shopify\\{$class}";
+            $fullClass = "Joneco\\Shopify\\{$class}";
 
             if (
-                is_subclass_of($fullClass, Slince\Shopify\Service\Common\NestCrudManager::class)
+                is_subclass_of($fullClass, Joneco\Shopify\Service\Common\NestCrudManager::class)
             ) {
                 $extendClass = "NestCurdManagerTestCase";
             } else {
@@ -113,9 +113,9 @@ EOT;
             $content = <<<EOT
 <?php
 
-namespace Slince\Shopify\Tests\\{$namespace};
+namespace Joneco\Shopify\Tests\\{$namespace};
 
-use Slince\Shopify\Tests\Service\Common\\{$extendClass};
+use Joneco\Shopify\Tests\Service\Common\\{$extendClass};
 
 class {$baseClass}Test extends {$extendClass}
 {
@@ -137,14 +137,14 @@ EOT;
             $baseClass = str_replace('.php', '', basename($targetPath));
             $class = ltrim(str_replace('.php','', $targetPath), 'src/');
 
-            $fullClass = "Slince\\Shopify\\{$class}";
+            $fullClass = "Joneco\\Shopify\\{$class}";
 
             $ref= new \ReflectionClass($fullClass);
             if ($ref->isInterface() || false !== strpos($fullClass, 'Common')) {
                 continue;
             }
             $id = $fullClass::getServiceName();
-            $upperId = Slince\Shopify\Inflector::singularize(Slince\Shopify\Inflector::classify($id));
+            $upperId = Joneco\Shopify\Inflector::singularize(Joneco\Shopify\Inflector::classify($id));
 
             $interfaces = $ref->getInterfaces();
             $interfaceClass = strstr(end($interfaces)->getName(), 'Service');
@@ -225,7 +225,7 @@ EOT;
             }
             $class = strstr($file->getPathname(), 'Service');
             $class = str_replace('.php', '', $class);
-            $fullClass = "Slince\Shopify\\{$class}";
+            $fullClass = "Joneco\Shopify\\{$class}";
             if ($interface) {
                 if (false !== strpos($fullClass, 'Interface')) {
                     yield $fullClass;
@@ -246,7 +246,7 @@ EOT;
             }
             $class = strstr($file->getPathname(), 'Model');
             $class = str_replace('.php', '', $class);
-            $fullClass = "Slince\Shopify\\{$class}";
+            $fullClass = "Joneco\Shopify\\{$class}";
             yield $fullClass;
         }
     }
@@ -265,7 +265,7 @@ EOT;
         $driverFactory = new DocBlockDriverFactory($driverFactory, $typeParser);
         $annotationReader = new AnnotationReader();
         $metadataDriver = $driverFactory->createDriver([
-            'Slince\\Shopify\\Model' => $this->options['serializer_dir'] . '/builtin'
+            'Joneco\\Shopify\\Model' => $this->options['serializer_dir'] . '/builtin'
         ], $annotationReader);
         $metadataFactory = new MetadataFactory($metadataDriver, null, true);
         return $this->metadataFactory = $metadataFactory;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Discounts;
+namespace Joneco\Shopify\Tests\Service\Discounts;
 
-use Slince\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\GeneralCurdManagerTestCase;
 
 class PriceRuleManagerTest extends GeneralCurdManagerTestCase
 {

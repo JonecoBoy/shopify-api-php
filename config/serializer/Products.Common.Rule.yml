@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Products\Common\Rule:
+Joneco\Shopify\Model\Products\Common\Rule:
     properties:
         column:
             type: string

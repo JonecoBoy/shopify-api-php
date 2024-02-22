@@ -1,8 +1,8 @@
 <?php
 
-namespace Slince\Shopify\Tests\Service\Store;
+namespace Joneco\Shopify\Tests\Service\Store;
 
-use Slince\Shopify\Tests\Service\Common\NestCurdManagerTestCase;
+use Joneco\Shopify\Tests\Service\Common\NestCurdManagerTestCase;
 
 class ProvinceManagerTest extends NestCurdManagerTestCase
 {

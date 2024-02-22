@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\LineItemLocation:
+Joneco\Shopify\Model\Orders\Common\LineItemLocation:
     properties:
         id:
             type: int

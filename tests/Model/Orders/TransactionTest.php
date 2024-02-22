@@ -1,9 +1,9 @@
 <?php
 
-namespace Slince\Shopify\Tests\Model\Orders;
+namespace Joneco\Shopify\Tests\Model\Orders;
 
-use Slince\Shopify\Model\Orders\Transaction;
-use Slince\Shopify\Tests\Model\ModelTestCase;
+use Joneco\Shopify\Model\Orders\Transaction;
+use Joneco\Shopify\Tests\Model\ModelTestCase;
 
 class TransactionTest extends ModelTestCase
 {

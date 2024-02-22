@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Slince\Shopify\Middleware;
+namespace Joneco\Shopify\Middleware;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Slince\Shopify\Exception\ClientException;
+use Joneco\Shopify\Exception\ClientException;
 
 class CallableMiddleware implements MiddlewareInterface
 {

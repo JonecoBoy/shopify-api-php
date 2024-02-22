@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Customers\CustomerSavedSearch:
+Joneco\Shopify\Model\Customers\CustomerSavedSearch:
     properties:
         id:
             type: int

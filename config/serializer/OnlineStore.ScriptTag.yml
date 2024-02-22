@@ -1,4 +1,4 @@
-Slince\Shopify\Model\OnlineStore\ScriptTag:
+Joneco\Shopify\Model\OnlineStore\ScriptTag:
     properties:
         id:
             type: int

@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Metafield\Metafield:
+Joneco\Shopify\Model\Metafield\Metafield:
     properties:
         id:
             type: int

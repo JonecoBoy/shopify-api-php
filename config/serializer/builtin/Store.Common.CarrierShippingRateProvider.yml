@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Store\Common\CarrierShippingRateProvider:
+Joneco\Shopify\Model\Store\Common\CarrierShippingRateProvider:
     properties:
         serviceFilter:
             type: array

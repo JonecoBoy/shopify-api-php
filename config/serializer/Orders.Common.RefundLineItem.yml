@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Orders\Common\RefundLineItem:
+Joneco\Shopify\Model\Orders\Common\RefundLineItem:
     properties:
         id:
             type: int
@@ -15,8 +15,8 @@ Slince\Shopify\Model\Orders\Common\RefundLineItem:
         totalTax:
             type: float
         subtotalSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         totalTaxSet:
-            type: Slince\Shopify\Model\Common\PriceSet
+            type: Joneco\Shopify\Model\Common\PriceSet
         lineItem:
-            type: Slince\Shopify\Model\Orders\Common\LineItem
+            type: Joneco\Shopify\Model\Orders\Common\LineItem

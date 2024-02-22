@@ -1,4 +1,4 @@
-Slince\Shopify\Model\Shipping\Common\Destination:
+Joneco\Shopify\Model\Shipping\Common\Destination:
     properties:
         id:
             type: int
