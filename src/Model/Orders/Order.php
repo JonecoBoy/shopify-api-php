@@ -11,7 +11,6 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 namespace Joneco\Shopify\Model\Orders;
-
 use Joneco\Shopify\Model\Common\PriceSet;
 use Joneco\Shopify\Model\Customers\Customer;
 use Joneco\Shopify\Model\Orders\Common\ClientDetails;
@@ -407,7 +406,7 @@ class Order
      */
     public function getId(): ?int
     {
-        return $this->id;
+        return $this->id ?? null;
     }
 
     /**
@@ -423,7 +422,7 @@ class Order
      */
     public function getEmail(): ?string
     {
-        return $this->email;
+        return $this->email ?? null;
     }
 
     /**
@@ -439,7 +438,7 @@ class Order
      */
     public function getClosedAt(): ?\DateTimeInterface
     {
-        return $this->closedAt;
+        return $this->closedAt ?? null;
     }
 
     /**
@@ -455,7 +454,7 @@ class Order
      */
     public function getCreatedAt(): ?\DateTimeInterface
     {
-        return $this->createdAt;
+        return $this->createdAt ?? null;
     }
 
     /**
@@ -471,7 +470,7 @@ class Order
      */
     public function getUpdatedAt(): ?\DateTimeInterface
     {
-        return $this->updatedAt;
+        return $this->updatedAt ?? null;
     }
 
     /**
@@ -487,7 +486,7 @@ class Order
      */
     public function getNumber(): ?int
     {
-        return $this->number;
+        return $this->number ?? null;
     }
 
     /**
@@ -503,7 +502,7 @@ class Order
      */
     public function getNote(): ?string
     {
-        return $this->note;
+        return $this->note ?? null;
     }
 
     /**
@@ -519,7 +518,7 @@ class Order
      */
     public function getToken(): ?string
     {
-        return $this->token;
+        return $this->token ?? null;
     }
 
     /**
@@ -535,7 +534,7 @@ class Order
      */
     public function getGateway(): ?string
     {
-        return $this->gateway;
+        return $this->gateway ?? null;
     }
 
     /**
@@ -567,7 +566,7 @@ class Order
      */
     public function getTotalPrice(): ?string
     {
-        return $this->totalPrice;
+        return $this->totalPrice ?? null;
     }
 
     /**
@@ -583,7 +582,7 @@ class Order
      */
     public function getSubtotalPrice(): ?string
     {
-        return $this->subtotalPrice;
+        return $this->subtotalPrice ?? null;
     }
 
     /**
@@ -615,7 +614,7 @@ class Order
      */
     public function getTotalTax(): ?string
     {
-        return $this->totalTax;
+        return $this->totalTax ?? null;
     }
 
     /**
@@ -647,7 +646,7 @@ class Order
      */
     public function getCurrency(): ?string
     {
-        return $this->currency;
+        return $this->currency ?? null;
     }
 
     /**
@@ -663,7 +662,7 @@ class Order
      */
     public function getFinancialStatus(): ?string
     {
-        return $this->financialStatus;
+        return $this->financialStatus ?? null;
     }
 
     /**
@@ -759,7 +758,7 @@ class Order
      */
     public function getName(): ?string
     {
-        return $this->name;
+        return $this->name ?? null;
     }
 
     /**
@@ -775,7 +774,7 @@ class Order
      */
     public function getReferringSite(): ?string
     {
-        return $this->referringSite;
+        return $this->referringSite ?? null;
     }
 
     /**
@@ -791,7 +790,7 @@ class Order
      */
     public function getLandingSite(): ?string
     {
-        return $this->landingSite;
+        return $this->landingSite ?? null;
     }
 
     /**
@@ -807,7 +806,7 @@ class Order
      */
     public function getCancelledAt(): ?\DateTimeInterface
     {
-        return $this->cancelledAt;
+        return $this->cancelledAt ?? null;
     }
 
     /**
@@ -823,7 +822,7 @@ class Order
      */
     public function getCancelReason(): ?string
     {
-        return $this->cancelReason;
+        return $this->cancelReason ?? null;
     }
 
     /**
@@ -839,7 +838,7 @@ class Order
      */
     public function getTotalPriceUsd(): ?string
     {
-        return $this->totalPriceUsd;
+        return $this->totalPriceUsd ?? null;
     }
 
     /**
@@ -855,7 +854,7 @@ class Order
      */
     public function getCheckoutToken(): ?string
     {
-        return $this->checkoutToken;
+        return $this->checkoutToken ?? null;
     }
 
     /**
@@ -871,7 +870,7 @@ class Order
      */
     public function getReference(): ?string
     {
-        return $this->reference;
+        return $this->reference ?? null;
     }
 
     /**
@@ -887,7 +886,7 @@ class Order
      */
     public function getUserId(): ?int
     {
-        return $this->userId;
+        return $this->userId ?? null;
     }
 
     /**
@@ -903,7 +902,7 @@ class Order
      */
     public function getLocationId(): ?int
     {
-        return $this->locationId;
+        return $this->locationId ?? null;
     }
 
     /**
@@ -919,7 +918,7 @@ class Order
      */
     public function getSourceIdentifier(): ?string
     {
-        return $this->sourceIdentifier;
+        return $this->sourceIdentifier ?? null;
     }
 
     /**
@@ -935,7 +934,7 @@ class Order
      */
     public function getSourceUrl(): ?string
     {
-        return $this->sourceUrl;
+        return $this->sourceUrl ?? null;
     }
 
     /**
@@ -951,7 +950,7 @@ class Order
      */
     public function getProcessedAt(): ?\DateTimeInterface
     {
-        return $this->processedAt;
+        return $this->processedAt ?? null;
     }
 
     /**
@@ -967,7 +966,7 @@ class Order
      */
     public function getDeviceId(): ?string
     {
-        return $this->deviceId;
+        return $this->deviceId ?? null;
     }
 
     /**
@@ -983,7 +982,7 @@ class Order
      */
     public function getPhone(): ?string
     {
-        return $this->phone;
+        return $this->phone ?? null;
     }
 
     /**
@@ -999,7 +998,7 @@ class Order
      */
     public function getCustomLocale(): ?string
     {
-        return $this->customLocale;
+        return $this->customLocale ?? null;
     }
 
     /**
@@ -1015,7 +1014,7 @@ class Order
      */
     public function getAppId(): ?string
     {
-        return $this->appId;
+        return $this->appId ?? null;
     }
 
     /**
@@ -1031,7 +1030,7 @@ class Order
      */
     public function getBrowserIp(): ?string
     {
-        return $this->browserIp;
+        return $this->browserIp ?? null;
     }
 
     /**
@@ -1047,7 +1046,7 @@ class Order
      */
     public function getLandingSiteRef(): ?string
     {
-        return $this->landingSiteRef;
+        return $this->landingSiteRef ?? null;
     }
 
     /**
@@ -1063,7 +1062,7 @@ class Order
      */
     public function getOrderNumber(): ?int
     {
-        return $this->orderNumber;
+        return $this->orderNumber ?? null;
     }
 
     /**
@@ -1079,7 +1078,7 @@ class Order
      */
     public function getDiscountApplications(): array
     {
-        return $this->discountApplications;
+        return $this->discountApplications ?? [];
     }
 
     /**
@@ -1111,7 +1110,7 @@ class Order
      */
     public function getNoteAttributes(): array
     {
-        return $this->noteAttributes;
+        return $this->noteAttributes ?? [];
     }
 
     /**
@@ -1127,7 +1126,7 @@ class Order
      */
     public function getPaymentGatewayNames(): array
     {
-        return $this->paymentGatewayNames;
+        return $this->paymentGatewayNames ?? [];
     }
 
     /**
@@ -1143,7 +1142,7 @@ class Order
      */
     public function getProcessingMethod(): ?string
     {
-        return $this->processingMethod;
+        return $this->processingMethod ?? null;
     }
 
     /**
@@ -1159,7 +1158,7 @@ class Order
      */
     public function getCheckoutId(): ?int
     {
-        return $this->checkoutId;
+        return $this->checkoutId ?? null;
     }
 
     /**
@@ -1175,7 +1174,7 @@ class Order
      */
     public function getSourceName(): ?string
     {
-        return $this->sourceName;
+        return $this->sourceName ?? null;
     }
 
     /**
@@ -1191,7 +1190,7 @@ class Order
      */
     public function getFulfillmentStatus(): ?string
     {
-        return $this->fulfillmentStatus;
+        return $this->fulfillmentStatus ?? null;
     }
 
     /**
@@ -1207,7 +1206,7 @@ class Order
      */
     public function getTaxLines(): array
     {
-        return $this->taxLines;
+        return $this->taxLines ?? [];
     }
 
     /**
@@ -1223,7 +1222,7 @@ class Order
      */
     public function getTags(): ?string
     {
-        return $this->tags;
+        return $this->tags ?? null;
     }
 
     /**
@@ -1239,7 +1238,7 @@ class Order
      */
     public function getContactEmail(): ?string
     {
-        return $this->contactEmail;
+        return $this->contactEmail ?? null;
     }
 
     /**
@@ -1255,7 +1254,7 @@ class Order
      */
     public function getOrderStatusUrl(): ?string
     {
-        return $this->orderStatusUrl;
+        return $this->orderStatusUrl ?? null;
     }
 
     /**
@@ -1271,7 +1270,7 @@ class Order
      */
     public function getPresentmentCurrency(): ?string
     {
-        return $this->presentmentCurrency;
+        return $this->presentmentCurrency ?? null;
     }
 
     /**
@@ -1287,7 +1286,7 @@ class Order
      */
     public function getTotalLineItemsPriceSet(): ?PriceSet
     {
-        return $this->totalLineItemsPriceSet;
+        return $this->totalLineItemsPriceSet ?? null;
     }
 
     /**
@@ -1303,7 +1302,7 @@ class Order
      */
     public function getTotalDiscountsSet(): ?PriceSet
     {
-        return $this->totalDiscountsSet;
+        return $this->totalDiscountsSet ?? null;
     }
 
     /**
@@ -1319,7 +1318,7 @@ class Order
      */
     public function getTotalShippingPriceSet(): ?PriceSet
     {
-        return $this->totalShippingPriceSet;
+        return $this->totalShippingPriceSet ?? null;
     }
 
     /**
@@ -1335,7 +1334,7 @@ class Order
      */
     public function getSubtotalPriceSet(): ?PriceSet
     {
-        return $this->subtotalPriceSet;
+        return $this->subtotalPriceSet ?? null;
     }
 
     /**
@@ -1351,7 +1350,7 @@ class Order
      */
     public function getTotalPriceSet(): ?PriceSet
     {
-        return $this->totalPriceSet;
+        return $this->totalPriceSet ?? null;
     }
 
     /**
@@ -1367,7 +1366,7 @@ class Order
      */
     public function getTotalTaxSet(): ?PriceSet
     {
-        return $this->totalTaxSet;
+        return $this->totalTaxSet ?? null;
     }
 
     /**
@@ -1383,7 +1382,7 @@ class Order
      */
     public function getLineItems(): array
     {
-        return $this->lineItems;
+        return $this->lineItems ?? [];
     }
 
     /**
@@ -1399,7 +1398,7 @@ class Order
      */
     public function getFulfillments(): array
     {
-        return $this->fulfillments;
+        return $this->fulfillments ?? [];
     }
 
     /**
@@ -1415,7 +1414,7 @@ class Order
      */
     public function getRefunds(): array
     {
-        return $this->refunds;
+        return $this->refunds ?? [];
     }
 
     /**
@@ -1431,7 +1430,7 @@ class Order
      */
     public function getTotalTipReceived(): ?string
     {
-        return $this->totalTipReceived;
+        return $this->totalTipReceived ?? null;
     }
 
     /**
@@ -1447,7 +1446,7 @@ class Order
      */
     public function getOriginalTotalDutiesSet(): ?PriceSet
     {
-        return $this->originalTotalDutiesSet;
+        return $this->originalTotalDutiesSet ?? null;
     }
 
     /**
@@ -1463,7 +1462,7 @@ class Order
      */
     public function getCurrentTotalDutiesSet(): ?PriceSet
     {
-        return $this->currentTotalDutiesSet;
+        return $this->currentTotalDutiesSet ?? null;
     }
 
     /**
@@ -1479,7 +1478,7 @@ class Order
      */
     public function getAdminGraphqlApiId(): ?string
     {
-        return $this->adminGraphqlApiId;
+        return $this->adminGraphqlApiId ?? null;
     }
 
     /**
@@ -1495,7 +1494,7 @@ class Order
      */
     public function getShippingLines(): array
     {
-        return $this->shippingLines;
+        return $this->shippingLines ?? [];
     }
 
     /**
@@ -1511,7 +1510,7 @@ class Order
      */
     public function getBillingAddress(): ?OrderAddress
     {
-        return $this->billingAddress;
+        return $this->billingAddress ?? null;
     }
 
     /**
@@ -1527,7 +1526,7 @@ class Order
      */
     public function getShippingAddress(): ?OrderAddress
     {
-        return $this->shippingAddress;
+        return $this->shippingAddress ?? null;
     }
 
     /**
@@ -1543,7 +1542,7 @@ class Order
      */
     public function getClientDetails(): ?ClientDetails
     {
-        return $this->clientDetails;
+        return $this->clientDetails ?? null;
     }
 
     /**
@@ -1559,7 +1558,7 @@ class Order
      */
     public function getPaymentDetails(): ?PaymentDetails
     {
-        return $this->paymentDetails;
+        return $this->paymentDetails ?? null;
     }
 
     /**
@@ -1575,7 +1574,7 @@ class Order
      */
     public function getTransactions(): array
     {
-        return $this->transactions;
+        return $this->transactions ?? [];
     }
 
     /**
@@ -1591,7 +1590,7 @@ class Order
      */
     public function getCustomer(): ?Customer
     {
-        return $this->customer;
+        return $this->customer ?? null;
     }
 
     /**
@@ -1599,6 +1598,6 @@ class Order
      */
     public function setCustomer(?Customer $customer)
     {
-        $this->customer = $customer;
+        $this->customer = $customer ?? null;
     }
 }
