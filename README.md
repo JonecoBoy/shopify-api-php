@@ -8,20 +8,20 @@
     <a href="LICENSE" target="_blank">
         <img alt="Software License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square">
     </a>
-    <a href="https://github.com/slince/shopify-api-php/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/slince/shopify-api-php/test.yml?style=flat-square" alt="Build Status">
+    <a href="https://github.com/jonecoboy/shopify-api-php/actions">
+        <img src="https://img.shields.io/github/actions/workflow/status/jonecoboy/shopify-api-php/test.yml?style=flat-square" alt="Build Status">
     </a>
-    <a href="https://codecov.io/github/slince/shopify-api-php">
-        <img src="https://img.shields.io/codecov/c/github/slince/shopify-api-php/3.x?style=flat-square" alt="Coverage Status">
+    <a href="https://codecov.io/github/jonecoboy/shopify-api-php">
+        <img src="https://img.shields.io/codecov/c/github/jonecoboy/shopify-api-php/3.x?style=flat-square" alt="Coverage Status">
     </a>
-    <a href="https://packagist.org/packages/slince/shopify-api-php">
-        <img src="https://img.shields.io/packagist/v/slince/shopify-api-php.svg?style=flat-square&amp;label=stable" alt="Latest Stable Version">
+    <a href="https://packagist.org/packages/jonecoboy/shopify-api-php">
+        <img src="https://img.shields.io/packagist/v/jonecoboy/shopify-api-php.svg?style=flat-square&amp;label=stable" alt="Latest Stable Version">
     </a>
-    <a href="https://scrutinizer-ci.com/g/slince/shopify-api-php/?branch=master">
-        <img src="https://img.shields.io/scrutinizer/g/slince/shopify-api-php.svg?style=flat-square" alt="Scrutinizer">
+    <a href="https://scrutinizer-ci.com/g/jonecoboy/shopify-api-php/?branch=master">
+        <img src="https://img.shields.io/scrutinizer/g/jonecoboy/shopify-api-php.svg?style=flat-square" alt="Scrutinizer">
     </a>
-    <a href="https://packagist.org/packages/slince/shopify-api-php">
-        <img src="https://img.shields.io/packagist/dt/slince/shopify-api-php.svg?style=flat-square" alt="Total Downloads">
+    <a href="https://packagist.org/packages/jonecoboy/shopify-api-php">
+        <img src="https://img.shields.io/packagist/dt/jonecoboy/shopify-api-php.svg?style=flat-square" alt="Total Downloads">
     </a>
 </p>
 
@@ -30,7 +30,7 @@
 Install via composer
 
 ```bash
-$ composer require slince/shopify-api-php
+$ composer require joneco/shopify-api-php
 ```
 
 ## Quick Start
